@@ -22,7 +22,7 @@ $(document).ready(function(){
 
         for (var i = 0; i < outlength; i++) {
             if (i < inlength) {
-                if(outa[i].indexOf("'")>-1&&outa[i].indexOf('"')>-1){ß
+                if(outa[i].indexOf("'")>-1&&outa[i].indexOf('"')>-1){
                     for(var j=0,length=outa[i].length;j<length;j++){
                         if(outa[i][j]=="'"){
                             outhtml += ('<span outword="' + outa[i][j] + '" inword="' + ina[i][j] + '">' + outa[i][j] + '</span>');        
